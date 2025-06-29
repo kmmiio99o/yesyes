@@ -14,11 +14,3 @@ document.addEventListener('keydown', function(e) {
         alert('Developer tools are disabled on this page!');
     }
 });
-
-export default {
-  async fetch(request) {
-    return new Response("Hello from Cloudflare Worker!", {
-      headers: { "Content-Type": "text/plain" },
-    });
-  }
-};
