@@ -17,7 +17,7 @@ document.addEventListener('keydown', function(e) {
 
 export default {
   async fetch(request) {
-    return new Response("Witaj w moim Workerze!", {
+    return new Response("Hello from Cloudflare Worker!", {
       headers: { "Content-Type": "text/plain" },
     });
   }
