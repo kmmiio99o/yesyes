@@ -1,5 +1,5 @@
 {
     "name": "cinnandkmio",
-    "main": "src/index.js",
+    "main": "src/script.js",
     "compatibility_date": "2023-10-20"
   }
