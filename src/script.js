@@ -17,6 +17,8 @@ document.addEventListener('keydown', function(e) {
 
 export default {
   async fetch(request) {
-    return new Response("Hello, world!");
+    return new Response("Witaj w moim Workerze!", {
+      headers: { "Content-Type": "text/plain" },
+    });
   }
 };
